@@ -1,7 +1,7 @@
 zselect
 =======
 
-a jquery chosen plugin, it when select is multiple, it has remark of every item
+a jquery chosen plugin, its value`s in the order of select when select is multiple, it has remark of every item
 
 How to use?
 =======
