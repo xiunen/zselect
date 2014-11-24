@@ -28,3 +28,7 @@ js like:
 		}],
 		value:[1,2]
 	});
+	
+Also, you can use it like this:
+
+	<input type="hidden" name="contry_code" id="test-select" data-multiple="true" data-options='[{value:1,label:"China",mark:"Asia"},{value:2,label:"USA",mark:"America"},{value:3,label:"India",mark:"Asia"}]' value="1,2">
