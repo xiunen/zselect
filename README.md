@@ -1,11 +1,11 @@
 zselect
 =======
 
-a jquery chosen plugin, it`s value has order when select multiple, it has remark of every item
+a jquery chosen plugin, it when select is multiple, it has remark of every item
 
 How to use?
 =======
-common use	
+you can use like this:	
 	
 	[html]
 	<input type="hidden" name="contry_code" id="test-select">
