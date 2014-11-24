@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>zselect test</title>
+		<link href="jquery.zselect.css" rel="stylesheet"/>
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<div>
+			<h3>多选</h3>
+			
+			<input type="hidden" id="test1" value="1">
+			
+			<h3>单选</h3>
+			
+			<input type="hidden" id="test2" value="1">
+		</div>
+	</body>
+	<script type="text/javascript" src="http://tonggao.baidu.com/plugins/js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="jquery.zselect.js"></script>
+	<script type="text/javascript">
+		$("#test1").zselect({multiple:true,options:[{value:"1",label:"tex2t",mark:"haha"},{value:"2",label:"text",mark:"haha"}]});
+		$("#test2").zselect({options:[{value:"1",label:"tex2t",mark:"haha"},{value:"2",label:"text",mark:"haha"}]});
+	</script>
+</html>

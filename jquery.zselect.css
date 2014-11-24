@@ -1,0 +1,104 @@
+.zselect-container{
+	overflow-x:hidden;
+}
+.zselect-container .input-field{
+	border:1px solid #ccc;
+	padding:5px;
+	cursor:pointer;
+}
+.zselect-container .dropdown-field{
+	border:1px solid #ccc;
+	border-top:none;
+	padding:0;
+	background:#fff;
+}
+.zselect-container .input-field input{
+	border:none !important;
+	outline:none !important;
+    background:transparent;
+}
+.zselect-container .highlight{
+	
+}
+.zselect-container .value-field{
+    min-height:18px;
+}
+.zselect-container.multiple-select .zselect-active .value-field{display:inline-block;}
+.zselect-container .zselect-active .value-field{display:none;}
+.zselect-container .search-field{display:none;}
+.zselect-container.multiple-select .search-field{display:inline-block;}
+.zselect-container .zselect-active .search-field{display:block;}
+.zselect-container .value-field{
+	display:inline-block;
+}
+.zselect-container .search-field{
+    padding:0 !important;
+}
+.zselect-container .dropdown-field{
+	position:absolute;
+	z-index:9998;
+}
+.zselect-container .dropdown-field .search-field{
+	display:block;
+	text-align:center;
+}
+.zselect-container .dropdown-field .search-field input{
+	display:block;
+	width:98%;
+	margin:0 auto;
+	outline:none;
+}
+.zselect-left{
+	float:left;
+}
+.zselect-right{
+	float:right;
+}
+.zselect-container .option-field{
+    max-height:240px;
+    overflow-y:auto;
+}
+.zselect-container .option-field ul li{
+	padding:5px 5px;
+	cursor:pointer;
+	font-size:16px;
+    overflow-x:hidden;
+}
+.zselect-container .option-field ul{
+	list-style:none;
+	padding-left:0;
+	padding-right:0;
+	margin:0px;
+	margin-top:5px;
+}
+.zselect-container .zselect-mark{
+	color:#aaa;
+}
+.zselect-container .zselect-highlight .zselect-mark{
+	color:#eee;
+}
+.zselect-clearfix:before,
+.zselect-clearfix:after{display:table;content:" "}
+.zselect-clearfix:after{clear:both}
+.zselect-highlight{
+	background:#4790ed;
+	color:white;
+}
+.input-field.zselect-active{
+	border:1px solid #4790ed;
+}
+.zselect-container .zselect-disabled{
+	color:#ccc;
+}
+.zselect-container.multiple-select .value-item{
+	color:white;
+	background:#4790ed;
+	margin-right:3px;
+	padding:3px;
+    margin-bottom:3px;
+}
+.zselect-container.multiple-select .value-item a{
+	color:white;
+	text-decoration:none;
+	margin-left:5px;
+}
