@@ -5,12 +5,12 @@ a jquery chosen plugin, it`s value has order when select multiple, it has remark
 
 How to use?
 =======
-html like	
+common use	
 	
+	[html]
 	<input type="hidden" name="contry_code" id="test-select">
-
-js like:
-
+	
+	[js]
 	$("#test-select").zselect({
 		multiple: true/false	//is multiple select or not
 		options:[{				//select options
