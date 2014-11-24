@@ -31,4 +31,8 @@ js like:
 	
 Also, you can use it like this:
 
+	[html]
 	<input type="hidden" name="contry_code" id="test-select" data-multiple="true" data-options='[{value:1,label:"China",mark:"Asia"},{value:2,label:"USA",mark:"America"},{value:3,label:"India",mark:"Asia"}]' value="1,2">
+	
+	[js]
+	$("#test-select").zselect();
